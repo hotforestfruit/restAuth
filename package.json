@@ -1,0 +1,30 @@
+{
+  "name": "restauth",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^6.2.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "node-cache": "^5.1.2",
+    "otplib": "^12.0.1",
+    "qrcode": "^1.5.4",
+    "uuid": "^11.0.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.7",
+    "@babel/node": "^7.26.0",
+    "@babel/preset-env": "^7.26.7",
+    "prisma": "^6.3.0"
+  }
+}
